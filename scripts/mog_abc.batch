@@ -1,0 +1,4 @@
+# Comparison on the MoG dataset
+python ../src/atbc.py --save_dir='../runs/mog/abc/cir-abc-add-test' --dataset='mog' --lr=1e-4 --batch_size=32 --hidden_size=256 --n_enc_layers=8 --num_heads=8 --compat='add'
+python ../src/atbc.py --save_dir='../runs/mog/abc/cir-abc-multi-test' --dataset='mog' --lr=1e-4 --batch_size=32 --hidden_size=256 --n_enc_layers=8 --num_heads=8 --compat='multi'
+

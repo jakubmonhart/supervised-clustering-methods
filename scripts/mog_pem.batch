@@ -1,0 +1,4 @@
+# Compare on the Circles dataset
+python ../src/permequi.py --save_dir='../runs/circles/permequi/cir-pem-mean-test' --dataset='circles' --lr=1e-4 --batch_size=128 --pme_version='mean' --encoder_n_layers=6 --aencoder_n_layers=6 --decoder_n_layers=6 --hid_dim=256 --early_stop=20
+python ../src/permequi.py --save_dir='../runs/circles/permequi/cir-pem-max-test' --dataset='mog' --lr=1e-4 --batch_size=64 --pme_version='max' --encoder_n_layers=6 --aencoder_n_layers=6 --decoder_n_layers=6 --hid_dim=256 --early_stop=20
+

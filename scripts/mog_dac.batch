@@ -1,0 +1,2 @@
+# Comparison on the MoG dataset
+python ../src/dac.py --save_dir='../runs/mog/dac/mog-dac-test' --dataset='mog' --lr=3e-4 --batch_size=64 --dim=128 --num_blocks=8 --num_indices=32 --num_heads=8 --n_cluster_low=2 --n_cluster_high=6 --n_elements=100

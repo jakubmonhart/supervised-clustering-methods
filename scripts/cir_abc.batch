@@ -1,0 +1,3 @@
+# Comparison on the Circles dataset
+python ../src/atbc.py --save_dir='../runs/circles/abc/cir-abc-add-test' --dataset='circles' --lr=1e-4 --batch_size=32 --hidden_size=256 --n_enc_layers=8 --num_heads=8 --compat='add' --n_cluster_low=2 --n_cluster_high=6 --n_elements=100
+python ../src/atbc.py --save_dir='../runs/circles/abc/cir-abc-multi-test' --dataset='circles' --lr=1e-4 --batch_size=32 --hidden_size=256 --n_enc_layers=8 --num_heads=8 --compat='multi' --n_cluster_low=2 --n_cluster_high=6 --n_elements=100
